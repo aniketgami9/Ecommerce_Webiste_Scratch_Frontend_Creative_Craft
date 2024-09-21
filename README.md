@@ -1,4 +1,4 @@
-# Crafty Commerce - Frontend
+# Creative Craft Ecommerce - Frontend
 
 ## Description
 
@@ -11,11 +11,3 @@ Crafty Commerce is a fully functional frontend eCommerce website designed to sho
 - User-friendly navigation
 - Modern design aesthetics
 
-## Installation
-
-To run the website locally, follow these steps:
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/yourusername/crafty-commerce.git
