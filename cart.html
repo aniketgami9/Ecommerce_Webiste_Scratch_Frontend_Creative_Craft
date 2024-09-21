@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CC- Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <section id="header">
+        <nav class="navbar">
+            <div class="logo">
+                Creative's Craft
+            </div>          
+            <ul class="nav-links">
+                <div class="mobile">
+                    <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <div class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">Login</a></li>
+                    <li><a href="cart.html"><i class="fa-solid fa-cart-shopping" id="cart-icon"></i></a></li>
+                </div>
+            </ul>
+        </nav>
+    </section> 
+
+    <p style="text-align: center;color:black">Cart Information</p>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>SubTotal</td>
+                    <td>Remove</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="Images/IMG_20230130_163245-removebg-preview.png" alt=""></td>
+                    <td>Toran</td>
+                    <td>$99</td>
+                    <td><input type="number" max="20" min="1" value="1"></td>
+                    <td>$299</td>
+                    <td><a href=""><i class="fa-solid fa-trash"></i></a></td>
+                </tr>
+                <tr>
+                    <td><img src="Images/IMG_20230130_163330-removebg-preview.png" alt=""></td>
+                    <td>Toran</td>
+                    <td>$99</td>
+                    <td><input type="number" max="20" min="1" value="1"></td>
+                    <td>$299</td>
+                    <td><a href=""><i class="fa-solid fa-trash"></i></a></td>
+                </tr>
+                <tr>
+                    <td><img src="Images/IMG_20230130_163245-removebg-preview.png" alt=""></td>
+                    <td>Toran</td>
+                    <td>$99</td>
+                    <td><input type="number" max="20" min="1" value="1"></td>
+                    <td>$299</td>
+                    <td><a href=""><i class="fa-solid fa-trash"></i></a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <p style="text-align: center;color:black">Overall Details</p>
+    <section id="cart-add" class="section-p1">
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Total Amount: </td>
+                    <td>$ 1000</td>
+                </tr>
+                <tr>
+                    <td>Shipping: </td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <th>Total: </th>
+                    <th>$1000</th>
+                </tr>
+            </table>
+            <button class="normal">Proceed </button>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="section-p1">
+        <div class="image">
+            <a href=""><img src="Images/Logo_CC.png" class="logo" alt=""></a>
+        </div>
+        <div class="col">
+            <h1>Contact</h1>
+            <p> <i class="fa-solid fa-location-dot"> </i> Bhuleshwar,<br>&nbsp; Charni Road</p>
+            <p> <i class="fa-solid fa-phone"></i> +91 9876543210</p>
+            <p> <i class="fa-regular fa-clock"></i> 09 AM to 8 PM</p>
+            <div class="follow">
+                <h4>Follow US</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h1>About</h1>
+            <a href="">About Us</a>
+            <a href="">Delivery Information</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms & Conditions</a>
+            <a href="">Refund / Exchange Policy</a>
+        </div>
+    </footer>
+
+    <!-- AniketGami & COPYRIGHT-->
+    <footer id="footer2">
+        <div class="aniket">
+            <h3>Copyright @Creative Crafts</h3>
+            <h5>Developed: Aniket Gami</h5>
+        </div>
+    </footer>
+</body>
+</html>
